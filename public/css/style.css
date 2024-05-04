@@ -1,0 +1,210 @@
+body {
+    font-family: "Roboto Slab", serif;
+    font-weight: 600 !important;
+    background: #D2E3C8;
+}
+a {
+    text-decoration: none;
+}
+.header-padding {
+    padding: 15px !important;
+}
+.header-padding ul li{
+    padding: 15px !important;
+}
+.header-padding ul li a {
+    text-transform: uppercase;
+}
+.description p {
+    line-height: 35px !important;
+    font-size: 25px;
+}
+.navbar-brand img {
+    width: 30%;
+}
+.commissionRate {
+    border-radius: 12px;
+    padding: 12px;
+    text-align: center;
+    background-color: transparent;
+}
+.header-tag {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #4F6F52;
+}
+.commissionRate .description p {
+    line-height: 35px !important;
+    font-size: 25px;
+}
+.about-us p {
+    line-height: 35px !important;
+    font-size: 25px;
+}
+.learn-more {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+}
+.services .card {
+    min-height: 450px;
+    border-radius: 15px;
+    border: transparent;
+}
+.services .card-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.services ul li {
+    list-style: none;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    color: white;
+}
+.about-us .section-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color: #4F6F52;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.about-us .member-img {
+    height: 450px;
+}
+.about-us .member-img img {
+    height: 100%;
+    border-radius: 12px;
+    width: 100%;
+}
+.member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    height: 100%;
+    position: absolute;
+    font-family: "Roboto Slab", serif;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(79, 111, 82, 0.5); /* Background with opacity */
+    color: #000; /* Text color */
+    transition: top 0.5s;
+    pointer-events: none; /* Ensures the overlay doesn't block mouse events */
+    border-radius: 12px;
+    box-sizing: border-box; /* Include padding in overlay height */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+}
+
+.member-img:hover .overlay {
+    top: 0;
+}
+.team-desc {
+    margin-top: auto; /* Push to the bottom */
+    background-color: #fff; /* White background for team-desc */
+    padding: 20px;
+}
+.decoration-overlay {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    z-index: -1;
+    opacity: 0.5; /* Adjust opacity as needed */
+    /* You can add more styles to position and size the overlay */
+}
+
+.word-container {
+    position: relative;
+    z-index: 2;
+    /* You can add more styles for the word container */
+}
+
+footer {
+    position: relative;
+    overflow: hidden;
+    background: url('../img/footer-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* Adjust opacity as needed */
+    z-index: -1;
+}
+.accordion-button {
+    padding: 20px; /* Adjust the padding as needed */
+    font-size: 24px; /* Adjust the font size as needed */
+}
+.accordion-button.active {
+    background-color: #f0f0f0; /* Change background color for active question */
+    font-weight: bold; /* Make the text bold for the active question */
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.contact-form {
+    width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contact-form label {
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+}
+
+.contact-form input,
+.contact-form button {
+    margin-bottom: 1rem;
+    padding: 15px;
+}
+
+.contact-form button {
+    width: 30%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.list-unstyled li {
+    padding: 10px;
+}
+.list-unstyled.nav-links li:hover {
+    color: #4F6F52;
+}

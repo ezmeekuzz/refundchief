@@ -1,0 +1,9 @@
+@media (max-width: 788px) {
+    .header-tag {
+        text-align: center !important;
+        font-size: 55px !important;
+    }
+    .contact-form {
+        width: 450px;
+    }
+}
