@@ -168,14 +168,14 @@
                         <div class="col-lg-4" data-aos="fade-up">
                             <div class="mt-2">
                                 <div class="card">
-                                    <img src="img/bg/slider-1.jpg" class="card-img-top" alt="...">
+                                    <img src="img/services/11111.svg" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h3 class="card-title">Inbound Shipments</h3>
+                                        <h3 class="card-title">Missing Inbounds</h3>
                                         <p class="card-text">
                                             <ul>
                                                 <li><i class="fas fa-chevron-circle-right"></i> Packing List Generator</li>
                                                 <li><i class="fas fa-chevron-circle-right"></i> Reviewing Documents</li>
-                                                <li><i class="fas fa-chevron-circle-right"></i> Receiving Discrepancy</li>
+                                                <li><i class="fas fa-chevron-circle-right"></i> Cancelled Shipments</li>
                                             </ul>
                                         </p>
                                     </div>
@@ -185,7 +185,7 @@
                         <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000">
                             <div class="services mt-2">
                                 <div class="card">
-                                    <img src="img/bg/slider-2.jpg" class="card-img-top" alt="...">
+                                    <img src="img/services/wallpaper.svg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h3 class="card-title">Lost Items</h3>
                                         <p class="card-text">
@@ -202,14 +202,14 @@
                         <div class="col-lg-4" data-aos="fade-up" data-aos-duration="2000">
                             <div class="services mt-2">
                                 <div class="card">
-                                    <img src="img/bg/slider-3.jpg" class="card-img-top" alt="...">
+                                    <img src="img/services/11111.svg" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h3 class="card-title">Cancelled Shipments</h3>
+                                        <h3 class="card-title">Damage Items</h3>
                                         <p class="card-text">
                                             <ul>
-                                                <li><i class="fas fa-chevron-circle-right"></i> Packing List Generator</li>
-                                                <li><i class="fas fa-chevron-circle-right"></i> Reviewing Documents</li>
-                                                <li><i class="fas fa-chevron-circle-right"></i> Receiving Discrepancy</li>
+                                                <li><i class="fas fa-chevron-circle-right"></i> Damage Item in the warehouse</li>
+                                                <li><i class="fas fa-chevron-circle-right"></i> Disposed by Amazon</li>
+                                                <li><i class="fas fa-chevron-circle-right"></i> Unfair reimbursement</li>
                                             </ul>
                                         </p>
                                     </div>

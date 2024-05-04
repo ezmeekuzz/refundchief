@@ -103,5 +103,5 @@
             </div>
         </div>
     </div>
-</div><?=$this->include('components/footer');?>
+</div><?=$this->include('components/admin/footer');?>
 <script type="text/javascript" src="<?=base_url();?>assets/js/admin/addstore.js"></script>

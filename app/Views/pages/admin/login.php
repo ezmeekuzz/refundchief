@@ -36,7 +36,7 @@
                                             <div class="row">
                                                 <div class="col-12">
                                                     <div class="form-group">
-                                                        <label class="control-label">User Name*</label>
+                                                        <label class="control-label">Email Address*</label>
                                                         <input type="text" class="form-control" name="emailaddress" id="emailaddress" placeholder="Email Address" />
                                                     </div>
                                                 </div>
